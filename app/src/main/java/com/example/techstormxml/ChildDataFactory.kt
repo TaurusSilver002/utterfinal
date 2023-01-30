@@ -9,24 +9,24 @@ object ChildDataFactory {
         val children = mutableListOf<ItemCard>()
 
         children.add(ItemCard(R.drawable.codebee, "CODE-BEE"))
-        children.add(ItemCard(R.drawable.ometr, "OMEGATRIX"))
+        children.add(ItemCard(R.drawable.omegatrix, "OMEGATRIX"))
         children.add(ItemCard(R.drawable.webology, "WEB-O-LOGY"))
         return children
     }
     fun getChildrenideaPresentation() : List<ItemCard>{
         val children = mutableListOf<ItemCard>()
 
-        children.add(ItemCard(R.drawable.tecmano, "TECHNOMANIA"))
+        children.add(ItemCard(R.drawable.technomania, "TECHNOMANIA"))
         children.add(ItemCard(R.drawable.appmania, " APP-MANIA"))
 
         return children
     }fun rovers() : List<ItemCard>{
         val children = mutableListOf<ItemCard>()
 
-        children.add(ItemCard(R.drawable.ronavi, "RO NAVIGATOR"))
+        children.add(ItemCard(R.drawable.ronavigator, "RO NAVIGATOR"))
         children.add(ItemCard(R.drawable.rosoccer, "RO SOCCER"))
-        children.add(ItemCard(R.drawable.rocomlg, "RO COMBAT(light)"))
-        children.add(ItemCard(R.drawable.rocomh, "RO COMBAT(heavy)"))
+        children.add(ItemCard(R.drawable.rocombatlight, "RO COMBAT(light)"))
+        children.add(ItemCard(R.drawable.rocombatheavy, "RO COMBAT(heavy)"))
         children.add(ItemCard(R.drawable.ropuzzle, "RO- PUZZLE"))
         children.add(ItemCard(R.drawable.roterrance, "RO-TERRANCE"))
         children.add(ItemCard(R.drawable.powerpull, "POWER-PULL"))
@@ -41,14 +41,14 @@ object ChildDataFactory {
     }fun creativeevents() : List<ItemCard>{
         val children = mutableListOf<ItemCard>()
 
-        children.add(ItemCard(R.drawable.passrell, " PASSION WITH REELS"))
+        children.add(ItemCard(R.drawable.passionwithreels, " PASSION WITH REELS"))
 
         return children
     }
     fun gamesextra() : List<ItemCard>{
         val children = mutableListOf<ItemCard>()
 
-        children.add(ItemCard(R.drawable.valo, "VALORANT"))
+        children.add(ItemCard(R.drawable.appmania, "VALORANT"))
 
         return children
     }
