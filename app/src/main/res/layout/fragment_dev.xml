@@ -17,7 +17,7 @@
             android:layout_width="181dp"
             android:layout_height="217dp"
             android:layout_marginTop="16dp"
-            android:src="@drawable/anushka1"
+            android:src="@drawable/anushka2"
             app:layout_constraintEnd_toStartOf="@+id/imageView4"
             app:layout_constraintHorizontal_bias="0.39"
             app:layout_constraintStart_toStartOf="parent"
@@ -29,7 +29,7 @@
             android:layout_height="217dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
-            android:src="@drawable/dipnarayan1"
+            android:src="@drawable/dipnarayan"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -38,7 +38,7 @@
             android:layout_width="181dp"
             android:layout_height="217dp"
             android:layout_marginTop="48dp"
-            android:src="@drawable/img17"
+            android:src="@drawable/maaitrayo"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.056"
             app:layout_constraintStart_toStartOf="parent"

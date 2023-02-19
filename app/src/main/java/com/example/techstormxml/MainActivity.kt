@@ -41,10 +41,6 @@ class MainActivity : AppCompatActivity() {
                 R.id.nav_sponcers -> replaceFragment(SponcerFragment(), it.title.toString())
                 R.id.nav_team -> replaceFragment(TeamsFragment(), it.title.toString())
                 R.id.nav_dev -> replaceFragment(DevFragment(), it.title.toString())
-                R.id.nav_announcement -> replaceFragment(
-                    AnnouncementFragment(),
-                    it.title.toString()
-                )
                 R.id.nav_photogallery -> replaceFragment(
                     PhotogalleryFragment(),
                     it.title.toString()
