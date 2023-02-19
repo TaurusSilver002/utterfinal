@@ -1,56 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:tools="http://schemas.android.com/tools"
+
     tools:showIn="navigation_view">
 
 <group android:checkableBehavior="single">
     <item
         android:id="@+id/nav_home"
         android:icon="@drawable/ic_home"
+        android:fontFamily="@font/altea"
         android:title="Home"/>
 
     <item
         android:id="@+id/nav_schedule"
         android:icon="@drawable/ic_schedule"
+        android:fontFamily="@font/altea"
         android:title="Schedule"/>
 
     <item
         android:id="@+id/nav_results"
+        android:fontFamily="@font/altea"
         android:icon="@drawable/ic_results"
         android:title="Result"/>
 
     <item
         android:id="@+id/nav_sponcers"
         android:icon="@drawable/ic_sponcers"
-        android:title="Sponcers"/>
+        android:fontFamily="@font/altea"
+        android:title="Sponsors"/>
 
     <item
         android:id="@+id/nav_team"
         android:icon="@drawable/ic_people"
+        android:fontFamily="@font/altea"
         android:title="Teams"/>
-
 
 
     <item
         android:id="@+id/nav_dev"
         android:icon="@drawable/ic_dev"
+        android:fontFamily="@font/altea"
         android:title="Developers"/>
-
-    <item
-        android:id="@+id/nav_about_us"
-        android:icon="@drawable/ic_about_us"
-        android:title="About Us"/>
 
     <item
         android:id="@+id/nav_announcement"
         android:icon="@drawable/ic_announcement"
+        android:fontFamily="@font/altea"
         android:title="Announcement"/>
-
 
     <item
         android:id="@+id/nav_photogallery"
         android:icon="@drawable/ic_photogallery"
+        android:fontFamily="@font/altea"
         android:title="Photo Gallery"/>
+    <item
+        android:id="@+id/nav_about_us"
+        android:icon="@drawable/ic_about_us"
+        android:fontFamily="@font/altea"
+        android:title="About Us"/>
 
 </group>
 

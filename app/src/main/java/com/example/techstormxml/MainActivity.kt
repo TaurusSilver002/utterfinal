@@ -41,7 +41,6 @@ class MainActivity : AppCompatActivity() {
                 R.id.nav_sponcers -> replaceFragment(SponcerFragment(), it.title.toString())
                 R.id.nav_team -> replaceFragment(TeamsFragment(), it.title.toString())
                 R.id.nav_dev -> replaceFragment(DevFragment(), it.title.toString())
-                R.id.nav_about_us -> replaceFragment(AboutUsFragment(), it.title.toString())
                 R.id.nav_announcement -> replaceFragment(
                     AnnouncementFragment(),
                     it.title.toString()
@@ -50,6 +49,7 @@ class MainActivity : AppCompatActivity() {
                     PhotogalleryFragment(),
                     it.title.toString()
                 )
+                R.id.nav_about_us -> replaceFragment(AboutUsFragment(), it.title.toString())
 
 
             }

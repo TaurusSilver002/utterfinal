@@ -106,7 +106,7 @@ class CardChildAdapter(private val itemCardList : List<ItemCard>) : RecyclerView
             }
 
             startActivity(it!!.context,browserIntent,bundle)
-            Toast.makeText(it!!.context, "You Clicked $a", Toast.LENGTH_SHORT).show()
+//            Toast.makeText(it!!.context, "You Clicked $a", Toast.LENGTH_SHORT).show()
         }
     }
 
