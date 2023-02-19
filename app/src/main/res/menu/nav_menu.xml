@@ -42,11 +42,6 @@ xmlns:tools="http://schemas.android.com/tools"
         android:fontFamily="@font/altea"
         android:title="Developers"/>
 
-    <item
-        android:id="@+id/nav_announcement"
-        android:icon="@drawable/ic_announcement"
-        android:fontFamily="@font/altea"
-        android:title="Announcement"/>
 
     <item
         android:id="@+id/nav_photogallery"

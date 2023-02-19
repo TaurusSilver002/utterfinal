@@ -48,7 +48,7 @@ object ChildDataFactory {
     fun gamesextra() : List<ItemCard>{
         val children = mutableListOf<ItemCard>()
 
-        children.add(ItemCard(R.drawable.appmania, "VALORANT"))
+        children.add(ItemCard(R.drawable.valorent, "VALORANT"))
 
         return children
     }
