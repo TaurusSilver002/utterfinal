@@ -114,8 +114,8 @@ VALORANT FINALS&#xA;
                 android:layout_marginTop="9dp"
                 android:layout_marginEnd="0dp"
                 android:fontFamily="sans-serif-condensed"
-                android:text="                Day 1 : 22nd March 2023
-Inauguration"
+                android:text="Day 1 : 22nd March 2023"
+                android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="16dp"
                 android:textStyle="bold" />
@@ -131,7 +131,7 @@ Inauguration"
                 android:layout_marginTop="37dp"
                 android:layout_marginBottom="18dp"
                 android:text="
-B BLOCK : SEMINAR HALL&#xA;
+B BLOCK : SEMINAR HALL(Inauguration)&#xA;
 9:30 AM - 10:30 AM&#xA;&#xA;
 CODEBEE PRELIMS-2&#xA;
 C BLOCK LAB 101,102,104,105&#xA;

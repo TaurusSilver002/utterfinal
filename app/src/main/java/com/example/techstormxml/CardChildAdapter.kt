@@ -31,78 +31,70 @@ class CardChildAdapter(private val itemCardList : List<ItemCard>) : RecyclerView
             val browserIntent : Intent
             if (currentitem.strng=="CODE-BEE") {
                 // block of code to be executed if the condition is true
-                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com"))
+                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://techstorm-23.vercel.app/rules_codebee.html"))
             }
             else if (currentitem.strng=="OMEGATRIX") {
                 // block of code to be executed if the condition is true
-                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("http://www.yahoo.com"))
-            }
-            else if (currentitem.strng=="OMEGATRIX") {
-                // block of code to be executed if the condition is true
-                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("http://www.filehippo.com"))
+                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://techstorm-23.vercel.app/rules_omegatrix.html"))
             }
             else if (currentitem.strng=="WEB-O-LOGY") {
                 // block of code to be executed if the condition is true
-                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("http://www.geeksforgeeks.com"))
+                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://techstorm-23.vercel.app/rules_webology.html"))
             }
             else if (currentitem.strng=="TECHNOMANIA") {
                 // block of code to be executed if the condition is true
-                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("http://www.leetcode.com"))
+                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://techstorm-23.vercel.app/rules_technomania.html"))
             }
-            else if (currentitem.strng=="APP-MANIA") {
+            else if (currentitem.strng=="APP MANIA") {
                 // block of code to be executed if the condition is true
-                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("http://www.linkedin.com"))
+                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://techstorm-23.vercel.app/rules_appmania.htm"))
             }
             else if (currentitem.strng=="RO NAVIGATOR") {
                 // block of code to be executed if the condition is true
-                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("http://www.twitter.com"))
+                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://techstorm-23.vercel.app/rules_ronavigator.html"))
             }
             else if (currentitem.strng=="RO SOCCER") {
                 // block of code to be executed if the condition is true
-                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("http://www.youtube.com"))
+                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://techstorm-23.vercel.app/rules_rosoccer.html"))
             }
-            else if (currentitem.strng=="RO COMBAT(light)") {
+            else if (currentitem.strng=="RO COMBAT(LIGHT)"  || currentitem.strng=="RO COMBAT(HEAVY)") {
                 // block of code to be executed if the condition is true
-                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("http://wwww.instagram.com"))
+                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://techstorm-23.vercel.app/rules_rocombat.html"))
             }
-            else if (currentitem.strng=="RO COMBAT(light)") {
+            else if (currentitem.strng=="RO PUZZLE") {
                 // block of code to be executed if the condition is true
-                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("http://www.facebbok.com"))
+                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://techstorm-23.vercel.app/rules_ropuzzle.html"))
             }
-            else if (currentitem.strng=="RO COMBAT(heavy)") {
+            else if (currentitem.strng=="RO TERRANCE") {
                 // block of code to be executed if the condition is true
-                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("http://wwww.microsoft.com"))
-            }
-            else if (currentitem.strng=="RO-PUZZLE") {
-                // block of code to be executed if the condition is true
-                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("http://www.pininterest.com"))
-            }
-            else if (currentitem.strng=="RO-TERRANCE") {
-                // block of code to be executed if the condition is true
-                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("http://www.nasa.com"))
+                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://techstorm-23.vercel.app/rules_roterrance.html"))
             }
             else if (currentitem.strng=="POWER PULL") {
                 // block of code to be executed if the condition is true
-                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://dev-koushikdas.github.io/techstorm2.23/index.html"))
-            }
-            else if (currentitem.strng=="POWER PULL") {
-                // block of code to be executed if the condition is true
-                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://dev-koushikdas.github.io/techstorm2.23/index.html"))
+                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://techstorm-23.vercel.app/rules_powerpull.html"))
             }
             else if (currentitem.strng=="FIFA") {
                 // block of code to be executed if the condition is true
-                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://dev-koushikdas.github.io/techstorm2.23/index.html"))
+                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://techstorm-23.vercel.app/rules_fifa.html"))
             }
             else if (currentitem.strng=="PES") {
                 // block of code to be executed if the condition is true
-                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://dev-koushikdas.github.io/techstorm2.23/index.html"))
+                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://techstorm-23.vercel.app/rules_pes.html"))
+            }
+            else if (currentitem.strng=="KHET(INTRA-COLLEGE)") {
+                // block of code to be executed if the condition is true
+                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://techstorm-23.vercel.app/rules_khet.html"))
+            }
+            else if (currentitem.strng=="VALORANT") {
+                // block of code to be executed if the condition is true
+                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://techstorm-23.vercel.app/rules_valorant.html"))
             }
             else if (currentitem.strng=="PASSION WITH REELS") {
                 // block of code to be executed if the condition is true
-                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://dev-koushikdas.github.io/techstorm2.23/index.html"))
+                browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://techstorm-23.vercel.app/rules_passionwithreels.html"))
             }
             else{
-                browserIntent =Intent(Intent.ACTION_VIEW, Uri.parse("https://dev-koushikdas.github.io/techstorm2.23/index.html"))
+                browserIntent =Intent(Intent.ACTION_VIEW, Uri.parse("https://techstorm-23.vercel.app/category.html"))
             }
 
             startActivity(it!!.context,browserIntent,bundle)
@@ -119,7 +111,7 @@ class CardChildAdapter(private val itemCardList : List<ItemCard>) : RecyclerView
 
 
 
-        }
+    }
 
 
 
