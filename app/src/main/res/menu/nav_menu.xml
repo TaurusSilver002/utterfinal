@@ -17,11 +17,7 @@ xmlns:tools="http://schemas.android.com/tools"
         android:fontFamily="@font/altea"
         android:title="Schedule"/>
 
-    <item
-        android:id="@+id/nav_results"
-        android:fontFamily="@font/altea"
-        android:icon="@drawable/ic_results"
-        android:title="Result"/>
+   
 
     <item
         android:id="@+id/nav_sponcers"
