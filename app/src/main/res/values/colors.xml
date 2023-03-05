@@ -11,5 +11,6 @@
     <color name="grey">#ADAAAA</color>
     <color name="blue">#0D45B5</color>
     <color name="trans">#00FFFFFF</color>
+    <color name="border">#F30A132E</color>
 
 </resources>
