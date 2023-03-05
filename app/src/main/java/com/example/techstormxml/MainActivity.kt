@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
             when (it.itemId) {
                 R.id.nav_home -> replaceFragment(HomeFragment(), it.title.toString())
                 R.id.nav_schedule -> replaceFragment(ScheduleFragment(), it.title.toString())
-                R.id.nav_results -> replaceFragment(ResultsFragment(), it.title.toString())
+                //R.id.nav_results -> replaceFragment(ResultsFragment(), it.title.toString())
              //   R.id.blank -> replaceFragment(BlankFragment(), it.title.toString())
                 R.id.nav_sponcers -> replaceFragment(SponcerFragment(), it.title.toString())
                 R.id.nav_team -> replaceFragment(TeamsFragment(), it.title.toString())

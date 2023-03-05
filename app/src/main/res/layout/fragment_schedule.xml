@@ -229,8 +229,7 @@ B BLOCK SEMINAR HALL&#xA;
                 android:layout_marginTop="9dp"
                 android:layout_marginEnd="0dp"
                 android:fontFamily="sans-serif-condensed"
-                android:text="                Day 2 : 23nd March 2023
-Inauguration"
+                android:text="                       Day 2 : 23nd March 2023"
                 android:textColor="@color/white"
                 android:textSize="16dp"
                 android:textStyle="bold" />
