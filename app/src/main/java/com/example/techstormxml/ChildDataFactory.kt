@@ -20,8 +20,7 @@ object ChildDataFactory {
 
         children.add(ItemCard(R.drawable.ronavigator, "RO NAVIGATOR"))
         children.add(ItemCard(R.drawable.rosoccer, "RO SOCCER"))
-        children.add(ItemCard(R.drawable.rocombatlight, "RO COMBAT(LIGHT)"))
-        children.add(ItemCard(R.drawable.rocombatheavy, "RO COMBAT(HEAVY)"))
+        children.add(ItemCard(R.drawable.rocombat, "RO COMBAT"))
         children.add(ItemCard(R.drawable.ropuzzle, "RO PUZZLE"))
         children.add(ItemCard(R.drawable.roterrance, "RO TERRANCE"))
         children.add(ItemCard(R.drawable.powerpull, "POWER PULL"))

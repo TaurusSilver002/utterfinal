@@ -57,7 +57,7 @@ class CardChildAdapter(private val itemCardList : List<ItemCard>) : RecyclerView
                 // block of code to be executed if the condition is true
                 browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://techstorm-23.vercel.app/rules_rosoccer.html"))
             }
-            else if (currentitem.strng=="RO COMBAT(LIGHT)"  || currentitem.strng=="RO COMBAT(HEAVY)") {
+            else if (currentitem.strng=="RO COMBAT") {
                 // block of code to be executed if the condition is true
                 browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://techstorm-23.vercel.app/rules_rocombat.html"))
             }
