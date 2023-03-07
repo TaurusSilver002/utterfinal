@@ -16,16 +16,24 @@
         <de.hdodenhof.circleimageview.CircleImageView
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:layout_marginStart="60dp"
+            android:layout_marginStart="30dp"
             android:layout_marginTop="50dp"
             android:src="@drawable/bppimt" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:layout_marginStart="35dp"
+            android:layout_marginStart="25dp"
             android:layout_marginTop="50dp"
             android:src="@drawable/techstorm" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/techforumlogo" />
+
     </LinearLayout>
 
 </LinearLayout>
