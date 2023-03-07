@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <ScrollView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="729dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -19,43 +19,54 @@
             app:layout_constraintTop_toTopOf="parent">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="145dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_marginHorizontal="5dp"
+
             android:layout_marginTop="4dp"
             android:background="@drawable/border">
 
+
             <TextView
                 android:id="@+id/textView6"
-                android:layout_width="107dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
-                android:layout_marginStart="148dp"
-                android:layout_marginEnd="145dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-condensed"
                 android:padding="10dp"
                 android:text="Pre-Events"
+                android:gravity="center"
                 android:textColor="@color/white"
                 android:textSize="16dp"
-                android:textStyle="bold" />
+                android:textStyle="bold"/>
 
-            <TextView
-                android:id="@+id/textView7"
-                android:layout_width="173dp"
-                android:layout_height="247dp"
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_below="@+id/textView6"
-                android:layout_alignParentStart="true"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="4dp"
-                android:text="VALORANT PRELIMS&#xA;16-19 MARCH.&#xA;&#xA;CODEBEE PRELIMS 1&#xA;
+                android:layout_marginTop="1dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:layout_below="@+id/textView6"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="1dp"
+                    android:text="VALORANT PRELIMS&#xA;16-19 MARCH.&#xA;&#xA;CODEBEE PRELIMS 1&#xA;
 FOR BPPIMT STUDENTS ONLY&#xA;
 17TH MARCH&#xA;&#xA;
 C BLOCK LAB 101,102,104,105&#xA;
@@ -65,53 +76,60 @@ C BLOCK LAB 101,102,104,105&#xA;
 
 
                 "
-                android:textColor="@color/white"
-                android:textSize="8dp"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
 
-                />
+                    />
 
-            <TextView
-                android:id="@+id/textView14"
-                android:layout_width="164dp"
-                android:layout_height="123dp"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginStart="35dp"
-                android:layout_marginTop="46dp"
-                android:layout_marginEnd="60dp"
-                android:layout_marginBottom="4dp"
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
 
-                android:layout_toEndOf="@+id/textView7"
-                android:text="OMEGATRIX PRELIMS&#xA;
+                    android:textAlignment="center"
+
+                    android:layout_below="@+id/textView6"
+
+                    android:layout_alignParentEnd="true"
+
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginBottom="0dp"
+
+                    android:text="OMEGATRIX PRELIMS&#xA;
 18 MARCH&#xA;
 4:30 PM - 5:30PM&#xA;&#xA;
 VALORANT FINALS&#xA;
 20 MARCH&#xA;
 5:00 PM - 8:00PM&#xA;"
-                android:textColor="@color/white"
-                android:textSize="8dp" />
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+            </LinearLayout>
 
 
         </RelativeLayout>
 
         <RelativeLayout
-            android:layout_width="400dp"
-            android:layout_height="445dp"
-            android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginHorizontal="5dp"
             android:layout_marginTop="4dp"
             android:background="@drawable/border">
 
 
             <TextView
                 android:id="@+id/textView15"
-                android:layout_width="381dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
-                android:layout_marginStart="19dp"
-                android:layout_marginTop="9dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="9dp"
                 android:layout_marginEnd="0dp"
                 android:fontFamily="sans-serif-condensed"
                 android:text="Day 1 : 22nd March 2023"
@@ -119,18 +137,25 @@ VALORANT FINALS&#xA;
                 android:textColor="@color/white"
                 android:textSize="16dp"
                 android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView15"
+                android:layout_marginTop="1dp"
+                android:paddingBottom="10dp"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/textView16"
-                android:layout_width="170dp"
-                android:layout_height="208dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="37dp"
-                android:layout_marginBottom="18dp"
-                android:text="
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+android:textAlignment="center"
+                    android:layout_below="@+id/textView15"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="
 B BLOCK : SEMINAR HALL(Inauguration)&#xA;
 9:30 AM - 10:30 AM&#xA;&#xA;
 CODEBEE PRELIMS-2&#xA;
@@ -160,22 +185,20 @@ TECHNOMANIA&#xA;
 C BLOCK AUDITORIUM 7TH FLOOR&#xA;
 2:30 PM - 4:30 PM&#xA;
 "
-                android:textColor="@color/white"
-                android:textSize="8dp" />
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
 
-            <TextView
-                android:id="@+id/textView17"
-                android:layout_width="183dp"
-                android:layout_height="433dp"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginStart="35dp"
-                android:layout_marginTop="37dp"
-                android:layout_marginEnd="60dp"
-                android:layout_marginBottom="9dp"
-                android:layout_toEndOf="@+id/textView16"
-                android:text="OMEGATRIX FINALS&#xA;
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@+id/textView15"
+                    android:layout_toEndOf="@id/textView16"
+                    android:text="OMEGATRIX FINALS&#xA;
 C BLOCK AUDITORIUM 7TH FLOOR&#xA;
 10:30 AM - 12:00 PM&#xA;&#xA;
 RO-PUZZLE PRELIMS&#xA;
@@ -207,44 +230,53 @@ APP MANIA&#xA;
 B BLOCK SEMINAR HALL&#xA;
 2:30 PM - 4:30 PM&#xA;
 "
-                android:textColor="@color/white"
-                android:textSize="8dp" />
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+            </LinearLayout>
         </RelativeLayout>
 
         <RelativeLayout
-            android:layout_width="400dp"
-            android:layout_height="410dp"
-            android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
-            android:layout_marginLeft="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:paddingBottom="5dp"
+            android:layout_marginHorizontal="5dp"
             android:layout_marginTop="4dp"
             android:background="@drawable/border">
 
             <TextView
                 android:id="@+id/textView18"
-                android:layout_width="381dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="19dp"
-                android:layout_marginTop="9dp"
-                android:layout_marginEnd="0dp"
+                android:paddingTop="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
                 android:fontFamily="sans-serif-condensed"
-                android:text="                       Day 2 : 23nd March 2023"
+                android:foregroundGravity="center"
+                android:text="Day 2 : 23nd March 2023"
                 android:textColor="@color/white"
-                android:textSize="16dp"
+                android:textSize="16sp"
                 android:textStyle="bold" />
-            <TextView
-                android:id="@+id/textView19"
-                android:layout_width="170dp"
-                android:layout_height="208dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="37dp"
-                android:layout_marginBottom="18dp"
-                android:text="
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView18"
+                android:layout_marginTop="1dp"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+
+                    android:text="
 CODE BEE FINALS&#xA;
 C BLOCK LAB 101,102,104,105&#xA;
 3:00 PM - 05:00PM&#xA;&#xA;
@@ -273,22 +305,20 @@ LUNCH BREAK : 1:30PM - 2:30 PM&#xA;
 2:30PM - 5:30PM
 
 "
-                android:textColor="@color/white"
-                android:textSize="8dp" />
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
 
-            <TextView
-                android:id="@+id/textView20"
-                android:layout_width="183dp"
-                android:layout_height="433dp"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginStart="35dp"
-                android:layout_marginTop="37dp"
-                android:layout_marginEnd="60dp"
-                android:layout_marginBottom="9dp"
-                android:layout_toEndOf="@+id/textView19"
-                android:text="RO-PUZZLE FINALS&#xA;
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginHorizontal="1sp"
+
+                    android:layout_toEndOf="@+id/textView19"
+                    android:text="RO-PUZZLE FINALS&#xA;
 B BLOCK 304&#xA;
 10:30 AM - 1:30 PM&#xA;&#xA;
 LUNCH BREAK : 1:30PM - 2:30 PM&#xA;
@@ -318,9 +348,9 @@ B BLOCK SEMINAR HALL&#xA;
 10:30AM-1:30
 
 "
-                android:textColor="@color/white"
-                android:textSize="8dp" />
-
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+            </LinearLayout>
 
         </RelativeLayout>
 

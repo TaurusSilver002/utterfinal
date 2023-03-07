@@ -27,8 +27,22 @@
     app:menu="@menu/nav_menu"
     android:layout_gravity="start"
     android:fitsSystemWindows="true"
-    android:background="@color/purple_700"/>
+    android:background="@color/purple_700">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:gravity="bottom">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/bppimt" />
 
+    </LinearLayout>
+
+</com.google.android.material.navigation.NavigationView>
 
 
 </androidx.drawerlayout.widget.DrawerLayout>
