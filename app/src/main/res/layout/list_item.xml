@@ -7,15 +7,14 @@
     android:layout_margin="8dp"
     android:paddingTop="5dp">
 
-
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/title_image"
-        android:layout_width="300dp"
-        android:layout_height="200dp"
+        android:layout_width="220dp"
+        android:layout_height="136dp"
         android:layout_marginTop="8dp"
         android:adjustViewBounds="true"
-        android:src="@drawable/image_1"
         android:scaleType="centerCrop"
+        android:src="@drawable/image_1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,14 +23,14 @@
 
     <TextView
         android:id="@+id/cardName"
-        android:layout_width="300dp"
-        android:layout_height="35dp"
+        android:layout_width="220dp"
+        android:layout_height="29dp"
         android:background="@color/transblack"
+        android:fontFamily="@font/mechanismo"
         android:gravity="center"
         android:text="Brain Teasers"
         android:textColor="@color/white"
         android:textSize="16dp"
-        android:fontFamily="@font/mechanismo"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/title_image"
         app:layout_constraintEnd_toEndOf="@+id/title_image"
